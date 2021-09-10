@@ -15,7 +15,7 @@ services:
       - HTTP_USER=${HTTP_USER}
       - HTTP_PASS=${HTTP_PASS}
     volumes:
-      - ./config/dnsmasq.conf:/etc/dnsmasq.conf
+      - ./dnsmasq.conf:/etc/dnsmasq.conf
     networks:
       - dnsmasq-network
     ports:
