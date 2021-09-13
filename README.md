@@ -8,7 +8,7 @@ dnsmasq
   sudo systemctl disable systemd-resolved.service
   sudo systemctl stop systemd-resolved
 ```
-Delete the symlink /etc/resolv.conf
+- Delete the symlink /etc/resolv.conf
 ```
   rm /etc/resolv.conf
 ```
