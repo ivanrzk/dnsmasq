@@ -7,9 +7,6 @@ services:
     build:
       context: ./
       dockerfile: ./Dockerfile
-      args:
-        - HTTP_USER=${HTTP_USER}
-        - HTTP_PASS=${HTTP_PASS}
     environment:
       - TZ=America/Argentina/Buenos_Aires
       - HTTP_USER=${HTTP_USER}
